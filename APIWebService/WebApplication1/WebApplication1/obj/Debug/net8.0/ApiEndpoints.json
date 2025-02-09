@@ -1,0 +1,27 @@
+[
+  {
+    "ContainingType": "WebApplication1.Controllers.DriverStandingsController",
+    "Method": "GetDriverStandings",
+    "RelativePath": "api/DriverStandings/{season}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "season",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[WebApplication1.DriverStanding, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "application/xml"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
